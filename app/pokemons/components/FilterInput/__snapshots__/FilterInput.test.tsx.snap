@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterInput renders correctly 1`] = `
+<DocumentFragment>
+  <form
+    class="mb-6 flex gap-2"
+  >
+    <input
+      class="flex-1 px-3 py-2 rounded-lg border border-gray-300"
+      placeholder="Search by exact name"
+      type="text"
+      value="charizard"
+    />
+    <button
+      class="px-4 py-2 bg-blue-900 text-white rounded-lg font-semibold"
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</DocumentFragment>
+`;

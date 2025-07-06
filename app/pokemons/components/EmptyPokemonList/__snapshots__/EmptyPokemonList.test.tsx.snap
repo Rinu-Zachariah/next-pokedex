@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyPokemonList renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex flex-col items-center justify-center h-96 relative"
+  >
+    <img
+      alt="No Pokemon found"
+      class="mb-6 select-none drop-shadow-xl"
+      height="250"
+      src="/assets/snorlax.png"
+      style="filter: grayscale(40%);"
+      width="250"
+    />
+    <div
+      class="absolute left-[70%] top-[18%] z-10 animate-bounce-slow"
+    >
+      <span
+        class="text-3xl text-blue-300 ml-1"
+      >
+        z
+      </span>
+      <span
+        class="text-4xl text-blue-200 ml-1"
+      >
+        z
+      </span>
+      <span
+        class="text-5xl text-blue-100 ml-1"
+      >
+        z
+      </span>
+    </div>
+    <p
+      class="text-lg font-bold text-gray-500 mb-1"
+    >
+      No Pokemon found!!
+    </p>
+    <p
+      class="text-sm text-gray-400 italic"
+    >
+      Try another search or come back later.
+    </p>
+  </div>
+</DocumentFragment>
+`;

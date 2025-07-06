@@ -1,0 +1,3 @@
+{{#each components}}
+export { default as {{pascalCase this}} } from './{{this}}/{{this}}';
+{{/each}}
