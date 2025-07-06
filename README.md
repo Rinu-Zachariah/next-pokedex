@@ -39,12 +39,12 @@ cd next-pokedex
 
 **2. Install dependencies**
 npm install
-# or
+-- or
 yarn install
 
 **3. Start Development server**
 yarn dev
-# or 
+-- or 
 npm run dev
 # Runs on http://localhost:3000
 
@@ -53,7 +53,7 @@ This project use Plop for automated, menu driven code scaffolding
 
 # To generate a new file :
 yarn generate
-# or
+-- or
 npm run generate
 
 You will be prompted to select :
@@ -70,7 +70,7 @@ Enter the name and (optional) directory. The generator will scaffold:
 Tests are located next to each component
 Run all tests with
 yarn test
-# or
+-- or
 npm test
 
 Snapshot files are automatically generated and updated by Jest(__snapshots__ directories).
@@ -84,6 +84,9 @@ Create a 'env.local' file at the project root.
 - Automatic code splitting and minification
 - Bundle analysis 
 - Responsive 
+
+**Deployed Version**
+https://next-pokedex-two.vercel.app/ : Vercel
 
 ## Credits
 - Pokeapi for Pokemon Data and sprites
