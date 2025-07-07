@@ -8,6 +8,7 @@ Server-side Pokedex built with Next.js, Typescript, Tailwind CSS, modular CSS, J
 Fetches Pokemon from [PokeApi](https://pokeapi.co/) with server-side pagination and server side filtering
 **Pokemon Details**: 
 On click of any row, a modal opens up wit Pokemon details(stats, ability, etc)
+- Shiny/normal sprite toggle in modal
 **Clean Code Structure**:
 Feature-first modular architecture for easy scaling and team collaboration
 **CSS Modules**:
@@ -25,13 +26,16 @@ plop based scaffolding for components, Redux Logic and more
 - Yarn or npm
 
 **Tech Stack**
-- Next.js
+- Next.js (App Router, SSR)
 - React
 - Tailwind CSS
 - Shadcn
-- next-themes
-- tanstack Tables
+- next-themes (Theme switching)
+- tanstack Tables (Flexible tables)
 - Pokeapi
+- plop (scaffolding/generators)
+- Jest & RTL
+- Vercel (deployment/hosting)
 
 **1. Clone the repo**
 git clone https://github.com/Rinu-Zachariah/next-pokedex.git
@@ -75,6 +79,17 @@ npm test
 
 Snapshot files are automatically generated and updated by Jest(__snapshots__ directories).
 
+For coverage run :
+npm test -- -coverage
+
+**6. Bundle Analysis**
+To inspect the app's JS bundle and to optimize, please run the command: 
+npm run analyze
+
+This will generate an interactive bundle analysis report.
+This can be used to identify large dependencies or unnecessary code, making the app faster and more efficient.
+
+
 ## Environment Variables
 Api Urls and secrets are stored in environment variables.
 Create a 'env.local' file at the project root.
@@ -91,7 +106,6 @@ https://next-pokedex-two.vercel.app/ : Vercel
 ## Credits
 - Pokeapi for Pokemon Data and sprites
 - shadcn for UI components
-
 
 ## Author
 Rinu Zachariah

@@ -13,7 +13,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="en">
     <body>
       <ThemeProvider>
-        <main className="container max-w-2xl mx-auto my-8 bg-white rounded-2xl shadow-lg p-8">
+        <main className="container max-w-2xl mx-auto my-8 bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 transition-colors">
           <div className="flex flex-col items-center mb-6">
             <Image
               src="/assets/pokemonLogo.png"
